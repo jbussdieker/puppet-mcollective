@@ -1,0 +1,5 @@
+name    'jbussdieker-mcollective'
+source  'git@github.com:jbussdieker/puppet-mcollective.git'
+author  'Joshua B. Bussdieker'
+summary 'Mcollective Module'
+version '0.0.1'
