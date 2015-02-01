@@ -7,6 +7,7 @@ class mcollective::config {
 
   file {'/etc/mcollective/server.cfg':
     content => template('mcollective/server.cfg.erb'),
+    notify  => Service['mcollective'],
   }
 
   if $mcollective::client == true {

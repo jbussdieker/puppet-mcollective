@@ -8,11 +8,9 @@ class mcollective(
 ) {
 
   class {'mcollective::package':
-    notify => Class['mcollective::service'],
   }
 
   class {'mcollective::config':
-    notify => Class['mcollective::service'],
   }
 
   class {'mcollective::service':
