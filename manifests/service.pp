@@ -1,7 +1,8 @@
 class mcollective::service {
 
   service {'mcollective':
-    ensure => running,
+    ensure  => running,
+    require => Package['mcollective'],
   }
 
 }

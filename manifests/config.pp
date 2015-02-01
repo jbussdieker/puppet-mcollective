@@ -1,5 +1,10 @@
 class mcollective::config {
 
+  file { '/etc/mcollective':
+    ensure  => directory,
+    require => Package['mcollective'],
+  }
+
   file {'/etc/mcollective/server.cfg':
     content => template('mcollective/server.cfg.erb'),
   }
