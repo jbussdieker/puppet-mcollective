@@ -4,8 +4,10 @@ class mcollective::config {
     content => template('mcollective/server.cfg.erb'),
   }
 
-  file {'/etc/mcollective/client.cfg':
-    content => template('mcollective/client.cfg.erb'),
+  if $mcollective::client == true {
+    file {'/etc/mcollective/client.cfg':
+      content => template('mcollective/client.cfg.erb'),
+    }
   }
 
 }

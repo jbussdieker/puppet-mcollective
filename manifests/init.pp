@@ -1,4 +1,5 @@
 class mcollective(
+  $client             = false,
   $connector          = "stomp",
   $connector_host     = "localhost",
   $connector_port     = 61613,
