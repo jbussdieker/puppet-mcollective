@@ -22,6 +22,7 @@ class { 'mcollective':
   connector_user     => 'mcollective',
   connector_password => 'secret',
 }
+```
 
 Using RabbitMQ
 
