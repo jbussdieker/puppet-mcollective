@@ -1,6 +1,6 @@
 {
   "name": "jbussdieker-mcollective",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "author": "Joshua Bussdieker",
   "summary": "Puppet MCollective management module",
   "license": "MIT",
