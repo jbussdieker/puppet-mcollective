@@ -1,0 +1,31 @@
+{
+  "name": "jbussdieker-mcollective",
+  "version": "0.0.2",
+  "author": "Joshua Bussdieker",
+  "summary": "Puppet MCollective management module",
+  "license": "MIT",
+  "source": "http://github.com/jbussdieker/puppet-mcollective",
+  "project_page": "http://github.com/jbussdieker/puppet-mcollective",
+  "issues_url": "https://github.com/jbussdieker/puppet-mcollective/issues",
+  "description": "This module can be used for basic MCollective Management",
+  "operatingsystem_support": [
+    {
+      "operatingsystem": "Ubuntu",
+      "operatingsystemrelease": [ "14.04" ]
+    }
+  ],
+  "requirements": [
+    {
+      "name": "puppet",
+      "version_requirement": "3.x"
+    }
+  ],
+  "dependencies": [
+  ],
+  "tags": [
+    "mcollective",
+    "networking",
+    "rpc",
+    "administration"
+  ]
+}
