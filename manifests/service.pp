@@ -1,3 +1,4 @@
+# == Class: mcollective::service
 class mcollective::service {
 
   service {'mcollective':

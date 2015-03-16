@@ -1,3 +1,4 @@
+# == Class: mcollective::package
 class mcollective::package {
 
   if $mcollective::client == true {

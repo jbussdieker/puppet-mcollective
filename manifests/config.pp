@@ -1,3 +1,4 @@
+# == Class: mcollective::config
 class mcollective::config {
 
   file { '/etc/mcollective':
